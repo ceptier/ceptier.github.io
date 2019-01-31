@@ -68,7 +68,7 @@
     <Section class="about text-center">
         <h3 class="font-ceptier-h3">ABOUT</h3>
         <p>Ceptier is a technology studio that works with clients to build products of the future.</p>
-        <p>With expertise in cutting edge technologies, we make the future now.</p>
+        <p>With expertise in cutting edge technologies, we help bring the future to you.</p>
     </Section>
     <!-- END About -->
 
@@ -232,7 +232,7 @@
         </div>
 
         <!-- Footer Links -->
-        <div class="container text-center text-md-left mt-5">
+        <div class="container font-weight-lighter text-center text-md-left mt-5">
 
             <!-- Grid row -->
             <div class="row mt-3">
@@ -243,8 +243,7 @@
                     <!-- Content -->
                     <h6 class="text-uppercase font-weight-bold">Ceptier</h6>
                     <hr class="bg-warning accent-2 mb-4 mt-0 d-inline-block mx-auto" style="width: 60px;">
-                    <p>Here you can use rows and columns here to organize your footer content. Lorem ipsum dolor sit amet, consectetur
-                        adipisicing elit.</p>
+                    <p>Ceptier is a technology studio that works with clients to build products of the future. With expertise in cutting edge technologies, We bring the future to you</p>
 
                 </div>
                 <!-- Grid column -->
@@ -253,19 +252,16 @@
                 <div class="col-md-2 col-lg-2 col-xl-2 mx-auto mb-4">
 
                     <!-- Links -->
-                    <h6 class="text-uppercase font-weight-bold">Products</h6>
+                    <h6 class="text-uppercase font-weight-bold">Navigation</h6>
                     <hr class="bg-warning accent-2 mb-4 mt-0 d-inline-block mx-auto" style="width: 60px;">
                     <p>
-                        <a href="#!">MDBootstrap</a>
+                        <a href="#!">Insights</a>
                     </p>
                     <p>
-                        <a href="#!">MDWordPress</a>
+                        <a href="#!">Services</a>
                     </p>
                     <p>
-                        <a href="#!">BrandFlow</a>
-                    </p>
-                    <p>
-                        <a href="#!">Bootstrap Angular</a>
+                        <a href="#!">Newsletter</a>
                     </p>
 
                 </div>
@@ -275,19 +271,16 @@
                 <div class="col-md-3 col-lg-2 col-xl-2 mx-auto mb-4">
 
                     <!-- Links -->
-                    <h6 class="text-uppercase font-weight-bold">Useful links</h6>
+                    <h6 class="text-uppercase font-weight-bold">Policy</h6>
                     <hr class="bg-warning accent-2 mb-4 mt-0 d-inline-block mx-auto" style="width: 60px;">
                     <p>
-                        <a href="#!">Your Account</a>
+                        <a href="#!">Privacy Policy</a>
                     </p>
                     <p>
-                        <a href="#!">Become an Affiliate</a>
+                        <a href="#!">Cookie Policy</a>
                     </p>
                     <p>
-                        <a href="#!">Shipping Rates</a>
-                    </p>
-                    <p>
-                        <a href="#!">Help</a>
+                        <a href="#!">Sitemap</a>
                     </p>
 
                 </div>
@@ -318,7 +311,8 @@
         <!-- Copyright -->
         <div class="footer-copyright text-center py-3">
             <img class="footer-brand mx-auto" src="media/Cepteir-Logo_white.png" alt="">
-            <span class=""><p>© 2019 Ceptier</p></span>
+            <span class="footer-copyright-text lead"><p class="m-0">© 2019 Ceptier</p></span>
+            <span class="footer-copyright-text lead"><p class="m-0">This content is for general information purposes only, and should not be used as a substitute for consultation with professional advisors.</p></span>
         </div>
         <!-- Copyright -->
 
@@ -330,5 +324,16 @@
     <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
     <script src="js/bootstrap.bundle.js"></script>
     <script src="js/main.js"></script>
+    <script>
+        if (window.netlifyIdentity) {
+            window.netlifyIdentity.on("init", user => {
+                if (!user) {
+                    window.netlifyIdentity.on("login", () => {
+                        document.location.href = "/admin/";
+                    });
+                }
+            });
+        }
+    </script>
 </body>
 </html>
