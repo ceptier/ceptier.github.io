@@ -1,0 +1,188 @@
+html,body{
+    height: 100%;
+    width: 100%;
+}
+.navbar-brand {
+    margin-right: 70px;
+}
+.nav-item.main-nav :hover{
+
+    border-bottom: #231F20 solid 3px ;
+}
+
+.nav-logo{
+    height: 28px;
+    width: auto;
+}
+
+.right-nav :hover{
+    background-color: #ffc107;
+}
+
+.bg-ceptier{
+    background-color: #231f20 !important;
+}
+
+.footer-copyright{
+    background-color: black;
+}
+
+.soc-ic{
+    padding-right: 25px;
+    padding-left: 25px;
+    font-size: 32px;
+    text-decoration: none;
+}
+
+.soc-ic i{
+    color: #231f20;
+}
+
+.soc-ic:hover i{
+    color: #ffc107;
+    cursor: grab;
+}
+
+.insights-section{
+    margin-top: 100px;
+    margin-bottom: 100px;
+}
+
+.cool-section{
+    margin-top: 100px;
+    margin-bottom: 100px;
+}
+
+.section-description{
+    width: 60%;
+    padding: 30px 0px;
+}
+
+.gist-col{
+    min-height: 300px;
+    text-align: center;
+    padding: 30px 15px;
+}
+
+.gist-col .gist-arrow {
+    z-index: 1000;
+    position: absolute;
+    padding-left: 10px;
+    padding-right: 10px;
+    right: -100%;
+    top: 50%;
+    bottom: 0;
+    width: 50px;
+    left: 0;
+    height: 50px;
+    margin: 0 auto;
+    background-color: white;
+    padding: 10px 0px;
+}
+
+.gist-col h3{
+    font-size: 1.25rem;
+    font-weight: 700;
+}
+
+
+.gist-col .gist-col-discription{
+    color: grey;
+    text-align: center;
+    padding: 30px 10% 10px;
+    visibility: hidden;
+}
+
+.gist-col:hover .gist-col-discription{
+    visibility: visible;
+    opacity: 1;
+    transition: visibility 0s linear 0s, opacity 300ms;
+}
+
+.gist-col-icon{
+    height: 80px;
+    width: auto;
+    margin-top: 45px;
+    fill: #1e7e34;
+}
+
+.gist-col-highlight{
+    border-bottom: 7px solid #ffc107;
+}
+
+.spotlight{
+    background-color: #f2f2f2;
+    min-height: 400px;
+}
+
+.hero{
+    margin-top: 80px;
+}
+
+.banner{
+    margin-bottom: 80px;
+}
+.about{
+    margin-bottom: 80px;
+}
+.font-ceptier-h1{
+    font-family: Verdana, Geneva, sans-serif;
+    font-size: 4.063rem;
+    font-style: normal;
+    font-variant: normal;
+    font-weight: 700;
+    line-height: 1em;
+}
+.font-ceptier-h3{
+    font-family: Verdana, Geneva, sans-serif;
+    font-size: 2rem;
+    font-style: normal;
+    font-variant: normal; font-weight: 700;
+    line-height: 1em;
+}
+
+.footer-brand{
+    height: 40px;
+    width: auto;
+    margin-bottom: 20px;
+    margin-top: 10px;
+}
+
+.cool-stuff-col{
+    max-height: 800px;
+}
+
+.cool-stuff-col img{
+    margin-top: 50px;
+    object-fit: cover;
+    height: 500px;
+    width: 100%;
+}
+
+.cool-stuff-overlay{
+    position: absolute;
+    top: 0;
+    right: 0;
+    width: 45%;
+    margin-right: 120px;
+    background-color: #fff;
+    border-top: 7px solid #ffc107;
+    padding: 20px 20px 30px;
+}
+
+.cool-stuff-overlay h1{
+    margin-top: 30px;
+    font-size: 3.5rem;
+}
+
+.cool-stuff-overlay h3{
+    font-size: 1.125rem;
+}
+
+.cool-stuff-overlay p{
+    margin: 30px 0px;
+}
+
+.font-ceptier-p{ font-family: Verdana, Geneva, sans-serif; font-size: 14px; font-style: normal; font-variant: normal; font-weight: 400; line-height: 20px; }
+.font-ceptier-quote{ font-family: Verdana, Geneva, sans-serif; font-size: 21px; font-style: normal; font-variant: normal; font-weight: 400; line-height: 30px; }
+.font-ceptier-pre{ font-family: Verdana, Geneva, sans-serif; font-size: 13px; font-style: normal; font-variant: normal; font-weight: 400; line-height: 18.5714px; }
