@@ -54,4 +54,38 @@
         width: 65%;
         margin-right: 40px;
     }
+    .hero .font-ceptier-h1 {
+        width: 60%;
+    }
+    .hero {
+        top: 30px;
+    }
+    .hero-image {
+        width: 100%;
+    }
+    .spotlight{
+        min-height: 200px;
+    }
+}
+
+@media only screen and (min-width: 992px) {
+    .spotlight{
+        min-height: 350px;
+    }
+}
+
+@media only screen and (min-width: 1200px) {
+    .spotlight{
+        min-height: 400px;
+    }
+    .cool-stuff-overlay {
+        position: absolute;
+        top: 0;
+        right: 0;
+        width: 45%;
+        margin-right: 120px;
+        background-color: #fff;
+        border-top: 7px solid #ffc107;
+        padding: 20px 20px 30px;
+    }
 }
