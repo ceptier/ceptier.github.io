@@ -36,19 +36,19 @@
         <div class="collapse navbar-collapse" id="navbarSupportedContent">
             <ul class="navbar-nav mr-auto">
                 <li class="nav-item main-nav">
-                    <a class="nav-link" href="#">Insights</a>
+                    <a class="nav-link" href="#insights">Insights</a>
                 </li>
-                <li class="nav-item main-nav">
+                <!--<li class="nav-item main-nav">
                     <a class="nav-link" href="#">Services</a>
-                </li>
+                </li>-->
                 <li class="nav-item main-nav">
-                    <a class="nav-link" href="#">About</a>
+                    <a class="nav-link" href="#about">About</a>
                 </li>
 
             </ul>
             <ul class="navbar-nav pull-right">
                 <li class="nav-item border-left right-nav">
-                    <a class="nav-link" href="#">Contact Us</a>
+                    <a class="nav-link" href="mailto:brandon@ceptier.com">Contact Us</a>
                 </li>
             </ul>
         </div>
@@ -57,25 +57,31 @@
     <!-- Banner -->
     <Section class="banner">
         <div class="container">
-            <div class="row hero">
-                <div class="col">
-                    <h1 class="font-ceptier-h1">BUILD THE FUTURE</h1>
-                    <div class="section-description">
-                        <p>As the world progresses faster and faster. Ceptier provides the tools and expertise to keep businesses in pace. Great insights produce a solid future.</p>
+            <div class="row">
+                <div class="col hero-container p-0">
+                    <div class="hero-image-container">
+                        <img class="hero-image" src="media/RoboMichaelangelo.png" alt="">
+                    </div>
+                    <div class="hero">
+                        <h1 class="font-ceptier-h1">BUILD THE FUTURE</h1>
+                        <div class="section-description">
+                            <p>As the world progresses faster and faster. Ceptier provides the tools and expertise to keep businesses in pace. Great insights produce a solid future.</p>
+                        </div>
+                        <div class="col spotlight d-flex flex-row-reverse">
+                            <a href="#" class="btn btn-warning btn-lg rounded-0 font-weight-bold float-right mt-auto mb-3">LEARN MORE</a>
+                        </div>
                     </div>
                 </div>
             </div>
             <div class="row">
-                <div class="col spotlight">
 
-                </div>
             </div>
         </div>
     </Section>
     <!-- END Banner -->
 
     <!-- About -->
-    <Section class="about text-center">
+    <Section id="about" class="about text-center">
         <h3 class="font-ceptier-h3">ABOUT</h3>
         <p>Ceptier is a technology studio that works with clients to build products of the future.</p>
         <p>With expertise in cutting edge technologies, we help bring the future to you.</p>
@@ -139,7 +145,7 @@
         <div class="container-fluid">
         <div class="row mx-0">
             <div class="col cool-stuff-col p-0">
-                <img src="media/blog-media/b2.jpg" alt="">
+                <img src="media/blog-media/b1.jpg" alt="">
                 <div class="cool-stuff-overlay">
                     <h3 class="font-ceptier-h3">PORTFOLIO</h3>
                     <h1 class="font-ceptier-h1">Check out some cool stuff!</h1>
@@ -154,7 +160,7 @@
 
 
     <!-- Insights -->
-        <Section class="insights-section">
+        <Section id="insights" class="insights-section">
             <div class="container-fluid">
             <div class="row">
                 <div class="col"></div>
@@ -197,6 +203,32 @@
         </Section>
     <!-- END Insights -->
 
+    <div class="container">
+            <div class="row">
+                <div class="col">
+                    <!-- Begin Mailchimp Signup Form -->
+                    <link href="//cdn-images.mailchimp.com/embedcode/horizontal-slim-10_7.css" rel="stylesheet" type="text/css">
+                    <style type="text/css">
+                        #mc_embed_signup{background:#fff; clear:left; font:14px Helvetica,Arial,sans-serif; width:100%;}
+                        /* Add your own Mailchimp form style overrides in your site stylesheet or in this style block.
+                           We recommend moving this block and the preceding CSS link to the HEAD of your HTML file. */
+                    </style>
+                    <div id="mc_embed_signup">
+                        <form action="https://ceptier.us20.list-manage.com/subscribe/post?u=9b43c7973df17cbc465ec4adf&amp;id=4ce72ca6f7" method="post" id="mc-embedded-subscribe-form" name="mc-embedded-subscribe-form" class="validate" target="_blank" novalidate>
+                            <div id="mc_embed_signup_scroll">
+                                <label for="mce-EMAIL">Subscribe to our Newsletter</label>
+                                <input type="email" value="" name="EMAIL" class="email" id="mce-EMAIL" placeholder="email address" required>
+                                <!-- real people should not fill this in and expect good things - do not remove this or risk form bot signups-->
+                                <div style="position: absolute; left: -5000px;" aria-hidden="true"><input type="text" name="b_9b43c7973df17cbc465ec4adf_4ce72ca6f7" tabindex="-1" value=""></div>
+                                <div class="clear"><input type="submit" value="Subscribe" name="subscribe" id="mc-embedded-subscribe" class="button"></div>
+                            </div>
+                        </form>
+                    </div>
+
+                    <!--End mc_embed_signup-->
+                </div>
+            </div>
+    </div>
     <!-- Footer -->
     <footer class="page-footer font-small bg-ceptier text-light">
 
@@ -228,9 +260,9 @@
                             <i class="fab fa-linkedin"></i>
                         </a>
                         <!--Instagram-->
-                        <a class="soc-ic">
+                        <!--<a class="soc-ic">
                             <i class="fab fa-instagram"></i>
-                        </a>
+                        </a> -->
 
                     </div>
                     <!-- Grid column -->
@@ -265,10 +297,10 @@
                     <h6 class="text-uppercase font-weight-bold">Navigation</h6>
                     <hr class="bg-warning accent-2 mb-4 mt-0 d-inline-block mx-auto" style="width: 60px;">
                     <p>
-                        <a href="#!">Insights</a>
+                        <a href="#insights">Insights</a>
                     </p>
                     <p>
-                        <a href="#!">Services</a>
+                        <a href="#about">About</a>
                     </p>
                     <p>
                         <a href="#!">Newsletter</a>
@@ -283,9 +315,9 @@
                     <!-- Links -->
                     <h6 class="text-uppercase font-weight-bold">Policy</h6>
                     <hr class="bg-warning accent-2 mb-4 mt-0 d-inline-block mx-auto" style="width: 60px;">
-                    <p>
+                    <!--<p>
                         <a href="#!">Privacy Policy</a>
-                    </p>
+                    </p>-->
                     <p>
                         <a href="#!">Cookie Policy</a>
                     </p>

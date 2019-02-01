@@ -113,14 +113,17 @@ html,body{
 .spotlight{
     background-color: #f2f2f2;
     min-height: 400px;
+    z-index: -1;
 }
 
 .hero{
-    margin-top: 80px;
+    position: absolute;
+    top: 80px;
+    left: 0px;
 }
 
 .banner{
-    margin-bottom: 80px;
+    margin-bottom: 160px;
 }
 .about{
     margin-bottom: 80px;
@@ -190,6 +193,14 @@ html,body{
     margin: 30px 0px;
 }
 
+.hero-image-container{
+    z-index: 1;
+}
+
+.hero-image{
+    width: 93%;
+    height: auto;
+}
 .font-ceptier-p{ font-family: Verdana, Geneva, sans-serif; font-size: 14px; font-style: normal; font-variant: normal; font-weight: 400; line-height: 20px; }
 .font-ceptier-quote{ font-family: Verdana, Geneva, sans-serif; font-size: 21px; font-style: normal; font-variant: normal; font-weight: 400; line-height: 30px; }
 .font-ceptier-pre{ font-family: Verdana, Geneva, sans-serif; font-size: 13px; font-style: normal; font-variant: normal; font-weight: 400; line-height: 18.5714px; }
